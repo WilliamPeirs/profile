@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap');
+
+
+body {
+    background-image: linear-gradient(90deg, #30cfd0 0%, #330867 100%);
+    color: #575F7D;
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: 'Lora' , sans-serif
+
+
+}
+
+h1,h2 {
+  font-family: 'Roboto', sans-serif;
+  color:#06AA7E;
+}
+p {
+  font-size: 20px;
+  font-family: 'Lora', sans-serif;
+
+
+
+}
+
+h3{
+  font-size: 20px;
+  font-family: 'Lora' , sans-serif;
+  color: #30B6C3;
+}
+
+a {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #06AA7E;
+
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+
+.card {
+  background-color: #E4E3E5;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#introdction {
+  background-image: linear-gradient(to bottom, red, black);
+}
+
+
+li{
+list-style-type: none;
+display: inline;
+padding-left: 0px;
+font-size: 50px;
+}
+
+#follow-me {
+  text-align: center;
+}
+
+ul {
+  margin: auto;
+  padding-left: 0px;
+  font-size: 50px;
+}
+i {
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
